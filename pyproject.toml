@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "collab-python-text-editor"
+version = "0.1.0"
+description = "A collaborative text editor using Automerge"
+authors = ["Luis Adrian Ferreyra"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+automerge = "^0.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
